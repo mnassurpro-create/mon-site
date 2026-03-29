@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H Rénovation | Contact</title>
+  <meta name="description" content="Contactez H Rénovation pour obtenir un devis ou échanger sur votre projet." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Prise de contact simple et rapide</span>
+      <span>Réponse rapide • Devis gratuit</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-badge">HR</span>
+        <span>
+          H Rénovation
+          <small>Travaux extérieurs & rénovation durable</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <a class="btn nav-cta" href="contact.html">Demander un devis</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">Accueil / Contact</div>
+        <h1>Parlez-nous de votre projet.</h1>
+        <p>La page contact du site de référence donne une place importante au devis et à l’échange direct. Ici, on reprend ce principe avec une page plus propre, plus aérée et plus facile à convertir. citeturn945252view0</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-card">
+          <h2>Informations utiles</h2>
+          <p class="note">Tu peux remplacer toutes ces informations par les vraies coordonnées de l’entreprise.</p>
+
+          <div class="contact-item">
+            <strong>Téléphone</strong>
+            <a href="tel:+33600000000">06 00 00 00 00</a>
+          </div>
+
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:contact@h-renovation.fr">contact@h-renovation.fr</a>
+          </div>
+
+          <div class="contact-item">
+            <strong>Zone d’intervention</strong>
+            <span>Île-de-France et alentours</span>
+          </div>
+
+          <div class="contact-item">
+            <strong>Horaires</strong>
+            <span>Lundi au samedi • 8h00 à 19h00</span>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h2>Demande de devis</h2>
+          <p class="note">Le formulaire est prêt visuellement. Pour qu’il envoie réellement les messages, il faudra le connecter à Formspree, Resend, EmailJS ou un backend. Cette version reste parfaite pour une première mise en ligne. </p>
+
+          <form>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input id="nom" type="text" placeholder="Votre nom" />
+              </div>
+              <div class="form-group">
+                <label for="tel">Téléphone</label>
+                <input id="tel" type="tel" placeholder="06 00 00 00 00" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="vous@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="service">Service</label>
+                <select id="service">
+                  <option>Toiture</option>
+                  <option>Façade</option>
+                  <option>Isolation</option>
+                  <option>Autre demande</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Décrivez brièvement votre besoin..."></textarea>
+              </div>
+            </div>
+            <div style="margin-top:1rem; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+              <button class="btn" type="submit">Envoyer la demande</button>
+              <span class="note">Version démo - sans envoi réel configuré.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>H Rénovation</h4>
+        <p>Une page contact claire, moderne et prête à être branchée à un vrai système d’envoi.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="services.html">Services</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>06 00 00 00 00</p>
+        <p>contact@h-renovation.fr</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span data-year></span> H Rénovation - Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
